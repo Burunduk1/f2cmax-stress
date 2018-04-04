@@ -1,0 +1,30 @@
+# bubble_sort, sort, stable_sort, split_sort
+test found [#34]: answer = 34, outputs = 35 35 35 35
+4
+5 8 6 7
+5 8 6 8
+test found [#59]: answer = 43, outputs = 44 44 44 44
+7
+6 3 3 8 3 8 6
+8 5 3 7 7 4 6
+
+# bubble_sort
+./f2cmax_sk_stress 3 4 9  0
+test found: output = 32, answer = 30
+3
+9 6 8
+7 6 9
+
+# sort
+./f2cmax_sk_stress 4 4 9  1 
+test found: output = 40, answer = 39
+4
+6 9 7 8
+6 9 7 9
+
+# stable_sort
+./f2cmax_sk_stress 3 4 9  2 
+test found: output = 32, answer = 30
+3
+9 6 8
+7 6 9
